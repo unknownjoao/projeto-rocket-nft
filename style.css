@@ -1,0 +1,54 @@
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container_header {
+    border: 1px solid;
+    background-image: url(assets/background.png);
+}
+
+.container_header header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+    margin-left: 82px;
+    margin-right: 82px;
+    align-items: center;
+}
+
+
+.container_header nav ul,
+.container_header nav ul a {
+    display: flex;
+    gap: 60px;
+    color: var(--text-color);
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.container_header .connect_metamask {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    color: var(--body-background);
+    gap: 15px;
+    background-color: #fff;
+}
